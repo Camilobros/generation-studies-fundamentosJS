@@ -1,10 +1,15 @@
-let NombreCliente = "Carlos Perez"
-const CiudadCliente = "Bogota"
-let ClienteEsPrimun = 
+let nombreCliente = "Carlos Perez";
+let ciudadCliente = "Bogota";
+const clienteEsPrime = true; 
 
 
-if (NombreCliente === "Carlos Perez") { 
-    
+let mensajePrime;
+
+if (clienteEsPrime === true) {
+    mensajePrime = "tienes acceso a Rappi Prime";
+} else {
+    mensajePrime = "no eres usuario Rappi Prime";
 }
 
-console.log ("Hola", NombreCliente , " Tu pedido a ", CiudadCliente , ClienteEsPrimun )
+
+console.log("Hola " + nombreCliente + ", tu pedido a " + ciudadCliente + " (" + mensajePrime + ").");
